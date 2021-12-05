@@ -1,0 +1,295 @@
+body{
+    margin: 0 !important;
+}
+
+#navi{
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase ;
+    font-family:'Rajdhani', sans-serif;
+    font-weight:600;
+    font-size: 26px;
+    
+}
+
+#logo{
+    width: 70px;
+    height: 70px;
+    padding-left: 5%;
+}
+
+#search{
+    width:200px;
+    border-bottom: 1px solid black;
+}
+
+#logowanie{
+    width: 30px;
+    height: 40px;
+    line-height: 9px;
+    padding-right: 40px; 
+}
+
+#zakupy{
+    width: 50px;
+    height: 40px;
+    line-height: 9px;
+}
+
+#content{
+    width:100%;
+    padding-top: 20px;
+}
+.bombki_tlo{
+    background-position: center;
+    background-size:cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top:40px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 90%;
+    height: 60%;
+}
+
+#tresc{
+    width: 90%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    text-align:center;
+    font-family:'Rajdhani', sans-serif;
+    font-weight: 600;
+}
+
+#bombki_czerwone{
+    background-image: url(img/xx.jpg);
+}
+
+#bombki_biale,#bombki_mix{
+    background-image: url(img/bom_biale.png);
+}
+
+#bombki_mix{
+    background-image: url(img/mix.jpg);
+}
+
+#bestseller{
+    height:100%;
+    height: 600px;
+    font-family:'Rajdhani', sans-serif;
+    font-weight: 600; 
+    color:black;
+}
+
+.zdj_best{
+    width:25%;
+    float:left;
+    text-align: center;
+}
+
+#footer{
+    background-color:#eae9e7;  
+    width: 100%;
+    height: 550px;
+    font-family:'Rajdhani', sans-serif;
+    font-weight: 600;  
+}
+
+#kontakt{
+    float:left;
+    width: 400px;
+    height: 350px;
+    margin: 10px;
+    color:rgba(77, 75, 75, 0.87);
+    text-align: center;
+}
+
+#badz_na{
+    float: left;
+    width: 400px;
+    height: 350px;
+    margin: 10px;
+    text-align: center;
+}
+
+.fb{
+    width: 130px;
+    height: 120px;
+    float: left;
+}
+
+.in{
+    width: 130px;
+    height: 120px;
+    float: left;
+}
+
+.pi{
+    width: 130px;
+    height: 120px;
+    float: left;
+}
+
+#newsletter{
+    float: left;
+    width: 400px;
+    height: 350px;
+    margin: 10px;
+    text-align: center;
+}
+
+.info{
+    width: 400px;
+    text-align: center;
+    float:left;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul> li{
+    float:left;
+    position: relative;
+}
+
+ul>li>a{
+    text-decoration: none;
+    color:black;
+    padding: 30px;
+}
+
+ul > li >ul {
+    padding: 20px;
+    position: absolute; 
+    display: none; 
+    width: 300px; 
+    text-align: left;
+    background-color: white;
+    border: 1px solid black;
+}
+
+ul li:hover > ul {
+    display: block;
+}
+
+ul > li>ul >li {
+    position: relative; 
+    border-bottom: 1px solid black;
+    float: none; 
+    font-size: 22px;
+    height: 52px;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bombki_lista{
+    float: right;
+}
+
+#szukaj,#zaloguj,#koszyk{
+    border-style: none;
+    background: rgba(0,0,0,0);
+    font-family:'Rajdhani', sans-serif;
+    font-weight:600;
+}
+
+div + ul :hover {
+    color: gray;
+}
+
+
+.naglowek_content{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    text-align: center;
+    position: relative;
+    top:250px;
+    font-weight:400;
+}
+
+.kolekcja{
+    height: 50px;
+    width: 180px;
+    font-family:'Rajdhani', sans-serif;
+    font-size: 22px;
+    font-weight:600;
+    text-transform: uppercase;
+    border: 1px solid white;
+    color: white;
+    background: rgb(255, 252, 252,0);
+    display: block;
+    margin: 250px auto ;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+}
+
+.przycisk{
+    background-color: rgba(0,0,0,0);
+    color: black;
+    width: 170px;
+    height:40px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    display: block;
+    margin: 0px auto 0px auto;
+    padding-top: 20px;
+
+}
+
+.przycisk:hover{
+    background-color: black;
+    color: white;
+    width: 170px;
+    height:40px;
+    text-transform: uppercase;
+}
+
+#naglowek{
+    font-family:'Rajdhani', sans-serif;
+    font-weight: 900;
+    font-size: 27px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.bombka{
+    height:400px;
+    width:250px;
+}
+
+h3{
+    font-family:'Rajdhani', sans-serif;
+    text-transform:uppercase;
+    color:rgba(77, 75, 75, 0.87);    
+}
+
+#kontakt a{
+    color: rgba(77, 75, 75, 0.87);
+}
+
+#news{
+    font-family:'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(77, 75, 75, 0.87);
+
+}
+
+hr{
+    border-top: 1px solid   #252525;
+    width: 1200px;
+    text-align: center;
+    clear: both;
+
+}
