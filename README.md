@@ -1,2 +1,0 @@
-# sklep_bombki
- 
